@@ -1,4 +1,5 @@
 \documentclass[12pt]{article}
+\usepackage[german]{babel}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 \usepackage{graphicx}
@@ -63,32 +64,60 @@ September 19, 2019&A. Hrazdera/P. Schoeffl&First version \\ \hline
 \pagebreak
 
 \section{Einführung}
-Das Ziel dieses Projektes ist es, eine Website fuer Segel oder Motoryachten (Boote) zu erstellen. Der Sinn dieser Website ist es, die Boote zur Bewertung freizugeben. Somit kann jeder User der sich ein Boot mieten moechte (egal wo) ein gutes Bild ueber den Vermieter und den Zustand des Bootes machen. Es kann nicht mehr passieren, dass man von einem Vermieter (Charterer) ueber den Tisch gezogen wird. Auch kann man sich so leichter mit den Vermietern zusammenschreiben. Weil es so ein Produkt noch nicht auf dem Markt gibt kann man die Idee auch leicht erweitern und vermarkten. 
+Das Ziel dieses Projektes ist es, eine Website fuer Segel oder Motoryachten (Boote) zu erstellen. Der Sinn dieser Website ist es, die Boote zur Bewertung freizugeben. Somit kann jeder User der sich ein Boot mieten moechte (egal wo) ein gutes Bild ueber den Vermieter und den Zustand des Bootes machen. Es kann nicht mehr passieren, dass man von einem Vermieter (Charterer) betrogen wird. Auch kann man sich so leichter mit den Vermietern zusammenschreiben. Weil es so ein Produkt noch nicht auf dem Markt gibt kann man die Idee auch leicht erweitern und vermarkten. 
 
 \pagebreak
 
 \section{Ausgangssituation}
-Bis jetzt gibt es nur die Websiten der einzelnen Verkaeufer, wo jedoch keine Bewertungen zu finden sind. Die Bewertungen auf diesen Seiten koennen auch leicht vom Vermieter verändert oder gekauft worden sein. Auch kann man so ein Prdoukt sehr gut gebrauchen. Zweitens haben wir schon von Leuten gehört, die schon nach einer solchen Website gesucht haben. Diese haben uns auch gebeten so eine zu Programmieren.
-Weiters liegt der Unterschied zwischen der von uns geplantet Website und den schon bestehenden Websiten darin, dass jeder der sich angemeldet hat ein Boot hinzufügen kann. Somit kann ein Mieter das von ihm gemietete Boot hinzufügen und dieses Bewerten (Wie in einem Forum). Die Webiste sollte auch für kleinere Leute sein nicht nur für Großhäfen. Ein Beispiel wäre die Website Airbnb.at.
-Aufgrund meines Segelhobbys habe ich viele Beziehungen zu diversen Segelclubs und Häfen. Dort können wir persönlich Segler/innen fragen was sie benötigen würden. Auch kenne ich mich mit Booten sehr gut aus und kann die Fehler umgehen. Beim Mieten von Booten in Kroatien hatte ich im Urlaub meistens Probleme mit dem Boot oder dem Vermieter. Unsere Website sollte dem entegegen wirken. 
-Die Vermarktung können wir auch über die verschiedenen Häfen bzw. Segelclubs bereitstellen. 
+Aktuell kann beim Anmieten einer Yacht oder eines Segelbootes auf das Angebot verschiedener Vermieter (Charterer) nur so zugegriffen werden, dass der Mieter die einzelnen Websites der Charterer besucht und sich das Angebot ansieht. Eine globale Suche von Booten in einer bestimmten Region ist derzeit nicht möglich.
+
+Weiters ist es noch nicht möglich, eine unabhängige Bewertung der Geschäfts\-trans\-aktion einer Vermietung (Zustand des Boots, Qualität der Betreuung, etc.) einzusehen. So ist man derzeit als Mieter noch von den Angaben des Vermieters abhängig und es ist schwierig bis unmöglich, sich ein eigenes und unabhängiges Bild zu machen. Dies gilt sowohl für die textuelle Beschreibung des Bootes als auch für die zur Verfügung gestellten Bilder.
+
+Auf der anderen Seite ist es für Charterer auch sehr schwierig ihr Angebot an Booten zu kommunizieren. Jeder einzelne Vermieter muss sein Angebot auf seiner eigenen Website bewerben. Dies impliziert einen signifikanten Aufwand, der vor allem von Kleinvermietern nicht geleistet werden kann.
+
+Im Bereich der Ferienzimmervermietung oder auch Ferienwohnungsvermietung gibt es bereits ein Angebot an zentralen Plattformen (Airbnb, HomeAway, etc), welche einen niederschwellig zugänglichen Marktplatz für die Vermietung von Wohnungen und Zimmer ermöglicht.
 
 \pagebreak
 
-\section{Allgemeine Bedingungen und Einschraenkungen}
+\section{Allgemeine Bedingungen und Einschränkungen}
+Solange kein Bezahlservice angeboten wird, genügt die Angabe einer e-mail und eines Benutzernamens. Validierung einer Anmeldung kann über einen Bestätigungslink über e-mail erreicht werden. Weitere persönliche Daten und daraus resultierende Datenoffenlegung sind dann zu untersuchen, wenn ein Bezahlsystem integriert wird.
 
-Das vorgeschlagene System hat mit den folgenden Einschraenkungen zu kaempfen:
+Das User Interface muss sowohl für angemeldete als auch für anonyme Benutzer zur Verfügung stehen. Vor allem sollten anonyme Benutzer ein ungestörtes Sucherlebnis geboten bekommen, solange sie nicht Boote bewerten wollen. Das GUI hat vor allem in der Gestaltung der Suche eine hohe Komplexität zu bewältigen, da die Suchkriterien sehr vielfältig sind. Beispielsweise sind folgende Suchkategorien relevant:
+
 \begin{itemize}
-\item Die Benutzerdaten sind streng vertraulich $\rightarrow$ Da wir persoenliche Daten wie (Name, Email, Wohnort und Geburtsjahr) bei angemeldeten Kunden speichern.
-\item Die Benutzeroberflaeche des Informationssystems muss leicht verständlich und modern gestaltet sein. Man sollte auf dem ersten Blick sofort wissen was man genau machen muss und wo man nach den verschiedenen Schiffen suchen kann (Ohne Anmeldung).
-\item Das Hinfügen von Bewertungen bzw. neuen Booten sollte ziemlich einfach gestaltet sein. Im Vordergrund steht auch die einfache Kontaktaufnahme mit dem Beitrag Ersteller.
-\item Die Anwendung muss mehrsprachig gestaltet werden, weil viele Haefen nicht in Oesterreich und Deutschland sind. Am Anfang wird die Website 2 - Sprachig ausgelegt sein (Deutsch und Englisch).
+   \item Auswahl einer oder mehrerer geografischer Regionen
+   \item Suche nach dem Typ und dem Namen des Boots
+   \item Name des Vermieters
+   \item Alter des Bootes
+   \item Anzahl der Schlafplätze und/oder Kabinen
+   \item Preis
+   \item Anzahl der Masten und/oder Segel
+   \item Sonderausstattung (noch genauer zu definieren)
 \end{itemize}
+
+Trennen von Features für anonyme bzw. angemeldete Benutzer
+
+Bei den anonymen und angemeldeten Benutzer:
+\begin{itemize}
+   \item Eine weitere Komplexität sind die angebotene Sortierungen, welche nach Preis, nach Beliebtheit, nach geografischer Nähe, nach Namen und Typ des Bootes sein können. Die Sortierung soll einfach und schnell gewechselt werden können.
+\end{itemize}
+
+Bei angemeldeten Benutzer:
+
+\begin{itemize}
+   \item Im Vordergrund steht auch die einfache Kontaktaufnahme über die E-mail, der Telefonnummer oder einem intigrierten Chat, mit dem Beitrag Ersteller.
+
+   \item Das Hinfügen von Bewertungen bzw. neuen Booten sollte ziemlich einfach gestaltet sein. Ein Bilder upload über den Dateiexplorer sollte auch zur Verfügung stehen.
+\end{itemize}
+
+
+Die Anwendung muss mehrsprachig gestaltet werden, weil viele Häfen nicht in Österreich oder Deutschland liegen. Am Anfang wird die Website zweisprachig ausgelegt sein (Deutsch und Englisch).
 
 \pagebreak
 
 \section{Projektziele und Systemkonzepte}
 Die Projektziele lassen sich wie folgt zusammenfassen:
+
 \begin{itemize}
 \item Man muss nicht angemeldet sein um sich die Bewertungen zu den Booten anzusehen. Somit ist die Bedienung fuer den Kunden leichter bzw. angenehmer, weil viele Kunden sich nicht nur fuers ansehen anmelden moechten.
 \item Anmeldung nur wenn man neue Boote hinzufuegen, oder Kommentare verfassen moechte. Hier ist eine Anmeldung wichtig damit man sieht wer diese Nachricht gesendet hat und somit auch Bots vermieden werden koennen.
@@ -97,9 +126,15 @@ Auch zum Bewerten der Boote muss man sich mit Email, Passwort, Vorname, Nachname
 \item Bei unserer Website steht der Kunde im Vordergrund und das soll auch durch einen kompetenten und freundlichen Support ausgedrueckt werden. 
 \end{itemize}
 
+Weiters liegt der Unterschied zwischen der von uns geplantet Website und den schon bestehenden Websiten darin, dass jeder der sich angemeldet hat ein Boot hinzufügen kann. Somit kann ein Mieter das von ihm gemietete Boot hinzufügen und dieses Bewerten (Wie in einem Forum).
+
 \pagebreak
 
 \section{Chancen und Risiken}
+Es bestehen Kontakte des Projektteams zu diversen Segelclubs und Häfen. Es wurden in einer Umfrage von Verantwortlichen für Segelclubs und Bootsmietern $n$ Personen befragt. Davon würden $m$ eine derartige Website sofort unterstützen und 
+
+Dort können wir persönlich Segler/innen fragen was sie benötigen würden. Auch kenne ich mich mit Booten sehr gut aus und kann die Fehler umgehen. Beim Mieten von Booten in Kroatien hatte ich im Urlaub meistens Probleme mit dem Boot oder dem Vermieter. Unsere Website sollte dem entegegen wirken. 
+Die Vermarktung können wir auch über die verschiedenen Häfen bzw. Segelclubs bereitstellen. 
 Das Projekt hat folgende Moeglichkeiten:
 \begin{itemize}
 \item Mieter bekommt fuer sein Geld das bestmoegliche Boot, weil er von anderen Usern die Bewertungen der Boote einsehen kann.
@@ -107,6 +142,7 @@ Das Projekt hat folgende Moeglichkeiten:
 \item Man kann sich einen Ueberblick ueber das Boot machen. Viele Kommentare und Bilder werden vom aktuellen Zustand des Bootes zu sehen sein.
 \end{itemize}
 
+Zweitens haben wir schon von Leuten gehört, die schon nach einer solchen Website gesucht haben. Diese haben uns auch gebeten so eine zu Programmieren.
 Das folgende Risiko ist zu beruecksichtigen:
 \begin{itemize}
 \item Das nicht viele Boote hinzugefuegt werden. Am Anfang ist es sicherlich schwer diese Website bekannter zu machen. Die Vermarktung ist darum eine potentielle Schwäche.
