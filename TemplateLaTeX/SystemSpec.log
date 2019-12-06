@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  6 DEC 2019 11:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  6 DEC 2019 11:47
 entering extended mode
 **d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex
 (d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex
@@ -470,7 +470,7 @@ Package rerunfilecheck Warning: File `SystemSpec.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `SystemSpec.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  4EFA623D3BFF4CD4E181C3725116EF77;1237.
+(rerunfilecheck)             After:  675F4D860F372452853FF143ACCF79B0;1244.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 265.
  ) 
 Here is how much of TeX's memory you used:
@@ -482,7 +482,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  42i,9n,35p,844b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on SystemSpec.pdf (14 pages, 276507 bytes).
+Output written on SystemSpec.pdf (14 pages, 276637 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
