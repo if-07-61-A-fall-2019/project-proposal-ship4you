@@ -131,7 +131,23 @@ November 03, 2019&P. Bauer&First version \\ \hline
 
 \subsection{Goal}
 \begin{explanation}
-Describe in detail what your project wants to achieve. Give clear answers how the shortcomings mentioned in the Initial Situation will be solved by the project.
+	Benutzer können sich anmelden, sind aber nicht dazu verpflichtet. Durch eine Anmeldung
+	bekommen sie mehrere Features wie:
+	\begin{itemize}
+		\item Boote hochladen (Details der Boote, Bilder, …)
+		\item Beschreibung abgeben
+		\item Boote mieten
+		\item Bewertungen schreiben, bearbeiten und löschen
+		\item Anonymen Chat starten
+	\end{itemize}
+	Als unangemeldeter User kann man:
+	\begin{itemize}
+		\item nur Bewertungen lesen
+		\item nach Booten suchen (nicht mieten)
+	\end{itemize}
+	Gesucht werden kann nach Ort, Vermieter, Schiffstyp und Schiffsname. Weiters ist es möglich Boote nach Preis, Größe, Bewertung und Namen zu filtern.
+	Für Fragen steht ein anonymer Chat zur Verfügung, wo sich Vermieter und Mieter austauschen können beziehungsweise bei Problemen um einen Support Anfragen können. Wenn es weitere Infos gibt können diese über Emails an das Team geschickt werden.
+	Das Ziel dieses Projekts ist es, möglichst viele Boote zur Verfügung zu stellen, damit sich Menschen, die gerne ein Boot mieten möchten, sich ein klares Bild daraus machen können. Mithilfe der Zusammenarbeit ehrlicher Vermieter können klar strukturierte Aussagen gemacht werden, wie zum Beispiel ob ein Boot beschädigt ist, für eine bestimmte Anzahl an Personen geeignet ist oder das Boot dem angegeben Preis entspricht. Mit der Möglichkeit selbst Boote hochzuladen und eine Beschreibung und Bewertung abzugeben soll anderen Personen helfen, sich für das richtige Boot zu entscheiden. Es besteht weiterhin das Risiko, dass falsche Details zu Booten abgegeben werden. Zur schnellen Übersicht werden die Boote mit der besten Bewertung angezeigt.
 \end{explanation}
 \pagebreak
 
@@ -145,7 +161,12 @@ In case of a very data-oriented application provide a first version of a data mo
 
 \subsection{Overview}
 \begin{explanation}
-In this subsection you give an overview of all use cases. Starting with a UML use case diagram you list all use cases covered in your system and a short description of each of the use cases.
+	\includegraphics[height=0.50\textwidth]{UseCaseDiagram.PNG}
+	1. UseCase: Der Kunde kann ein Boot suchen
+	2. UseCase: Der Kunde kann eine Bewertung schreiben
+	3. UseCase: Der Kunde kann chatten bzw. mit dem Support schreiben
+	4. UseCase: Der Verkäufer bzw. der Besitzer kann chatten
+	5. UseCase: Der Verkäufer bzw. der Besitzer kann ein Boot anlegen 
 \end{explanation}
 
 \subsection{Use Case 1: $<$Name$>$}
