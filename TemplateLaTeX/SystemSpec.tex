@@ -183,9 +183,9 @@ Der Kunde kann anhand von Suchkriterien ein Boot aus der Datenbank suchen.
 \hline 
 ID: & 1 \\ \hline
 Goal: & Der User sollte die Boote nach seinen Suchkriterien ausgelesen bekommen um Bewertungen, Kommentare und Bilder einsehen zu können. \\ \hline
-Precondition: & Under which condition is the user case triggered? \\ \hline
-Postcondition: & What conditions are true after the use case was successfully executed? \\ \hline
-Involved Users: &Role name: Description of users interacting with the system. “Users” can be other systems, too. \\ \hline
+Precondition: & Ist einer der Haupt-UserCases. Dieser wird benötigt um die Bootssuche zu verwenden. \\ \hline
+Postcondition: & Die Bedinung das der User eine Liste von Booten bekommt ist dann als erfolgreich gekennzeichnet \\ \hline
+Involved Users: &Kunde: Der User sucht nach Suchkriterien ein auf ihn abgestimmtes Boot. \\ \hline
 \end{tabular}
 
 \subsubsection{UI to call the use case}
@@ -195,7 +195,7 @@ Give a sketch of the UI and describe the UX controls.
 
 \subsubsection{The Standard Use}
 \begin{explanation}
-Describe the happy path.
+Wenn alles funktionier hat, werden dem User, der die Suche durchgeführt hat die Boote angezeigt, die auf seine Suchkriterien abgestimmt sind.
 \begin{itemize}
 	\item UI
 	\item Description
@@ -205,7 +205,7 @@ Describe the happy path.
 
 \subsubsection{The Non-Standard Use}
 \begin{explanation}
-Describe the corner cases, possible errors and how the system reacts on them
+Es könnte sein das es keine Boote zu diesen Suchkriterien in der Datenbank gibt. Dieses wird dem User mitgeteilt und er wird darum gebeten andere Suchkriterien zu verwenden.
 \begin{itemize}
 	\item UI
 	\item Description
@@ -225,42 +225,69 @@ CORRECT: The response time shall be within 500 ms.
 The following section has to be copied for each non-functional requirement.
 \end{explanation}
 
-\subsection{NFR 1: $<$Name$>$}
+\subsection{NFR 1: $<$Suche$>$}
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
-ID: & Identifier of the NFR \\ \hline
-Name: & The name of the NFR \\ \hline
-Type	: & Type as described below \\ \hline
-Descritpion: &  \\ \hline
+ID: & 1 \\ \hline
+Name: & Suche \\ \hline
+Type	: & EFFIC \\ \hline
+Descritpion: &  Die Suche sollte innerhalb von 1,5 Sekunde die Boote aus der Datenbank ausgelesen haben und diese auch dem User angezeigt haben.\\ \hline
 \end{tabular}
 
-The type of the NFR shall be taken from one of the following: The table below shall finally be deleted.
+\subsection{NFR 2: $<$Bewertung schreiben$>$}
+\begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
+\hline 
+ID: & 2 \\ \hline
+Name: & Bewertung schreiben \\ \hline
+Type	: & USE \\ \hline
+Descritpion: &  Das schreiben einer Bewertung sollte mit einem Klick möglich sein. (Eine Sterne Bewertung für einen Beitrag abgeben). Jedoch kann man auch ein neues Boot Bewerten (hierzu sind Bilder, und ein kleiner Artikel nötig. (ca. 100 Textzeichen))\\ \hline
+\end{tabular}
 
-\begin{tabular}{|p{.15\linewidth}|p{.25\linewidth}|p{.4\linewidth}|}
-\hline
-MAINT & Maintenance and portability requirement & Which maintenance or porting effort is expected in the future? Internationalization expected? Porting to different hardware platform?... \\ \hline
-SEC & Security requirement & Security requirements comprise confidentiality, data integrity, and availability. How much do we have to consider that data is not accessible to unauthorized persons? Is the correctness and/or consistency of data to be guaranteed? How severe are total system faults? \\ \hline
-LEGAL & Legal requirement & Are there any standards or legal constraints to be considered? \\ \hline
-USE & Usability Requirement & Usability covers all aspects to make the targeted user like to work with the software. \\ \hline
-EFFIC & Efficiency Requirement & Runtime and/or memory efficiency of the program. \\ \hline
+\subsection{NFR 3: $<$Chatten$>$}
+\begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
+\hline 
+ID: & 3 \\ \hline
+Name: & Chatten \\ \hline
+Type	: & SEC und USE \\ \hline
+Descritpion: &  Das chatten sollte Anonym ablaufen. Der User muss keine Daten bekannt geben (keine Telefonnummer, kein Name). \\Die verwendung des Chattes sollte per On-Cklick funktionieren \\ \hline
+\end{tabular}
+
+\subsection{NFR 4: $<$Boot anlegen$>$}
+\begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
+\hline 
+ID: & 4 \\ \hline
+Name: & Boot anlegen \\ \hline
+Type	: & USE \\ \hline
+Descritpion: &  Beim Anlegen eines Neuen Bootes sollte schon eine Vorgegebene Maske (Folie) zur verfügng stehen, wo mann nur noch die Daten des Schiffes und seine Bewertung bzw. einen kleinen Text (100 Textzeichen) hinzufügen muss.\\ \hline
 \end{tabular}
 \pagebreak
 
 \section{Quantity Structure}
 \begin{explanation}
-Describe the number of expected records in master data as well as business cases. This assessment is basis to make proper decisions concerning the form of data persistence (e.g., XML or data base) and data base product. Furthermore the quantity structure gives you a better idea about special requirements (e.g. the GUI) for your system because of hight quantity data.
+Da die ganzen Beiträge (Die Boote mit (Name, Bewertungen, Kommentare, Texte, Bilder)) den größten Umfang der Website beanspruchen, werden wir hierfür eine Datenbank benutzen, wo wir jede Bootbwertung übersichtlich gliedern bzw. einteilen können.
 \end{explanation}
 
 \pagebreak
 \section{System Architecture and Interfaces}
 \begin{explanation}
-To illustrate how your system is embedded in it’s environment list all interfaces to surrounding systems. Interfaces to users, supporting systems, logistics, peer-systems are to be listed and described.
+Unser System ist für die Kunden vorerst nur über eine Website verfügbar. Später wird vielleicht auch eine App zur besseren Nutzung auf den Mobiltelephonen zur verfügung stehen. Unsere Website greift auf eine Datenbank zu, wo die Boote gespeichert sind. Desweiteren werden wir einen Automattischen Email-Sender implementieren, um Passwörter leichter zuruksetzen zu können.
 \end{explanation}
 
 \pagebreak
 \section{Acceptance Criteria}
 \begin{explanation}
-The acceptance criteria define which criteria the system has to fulfill in order to be accepted. Describe, what has to be checked such that the system can be accepted. Give at least one acceptance test for each functional requirement described in this document. For each acceptance criterion one subsection has to be written.
+Suche:
+\begin{itemize}
+	\item Die Suche muss schnell und zuverlässig funktionieren
+\end{itemize}
+Boot anlegen:
+\begin{itemize}
+	Das Boot anlegen muss einfach und Übersichtlich funktionieren. Die vorgabe Folie sollte schön gestaltet sein.
+\end{itemize}
+Chat
+\begin{itemize}
+	Der Chat sollte schnell und ohne verzögerung funktionieren.
+\end{itemize}
 \end{explanation}
 
 \end{document}  

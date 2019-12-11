@@ -13,7 +13,10 @@
 \contentsline {subsubsection}{\numberline {2.2.3}The Standard Use}{8}{subsubsection.2.2.3}% 
 \contentsline {subsubsection}{\numberline {2.2.4}The Non-Standard Use}{8}{subsubsection.2.2.4}% 
 \contentsline {section}{\numberline {3}Non-Functional Requirements}{9}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}NFR 1: $<$Name$>$}{9}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.1}NFR 1: $<$Suche$>$}{9}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}NFR 2: $<$Bewertung schreiben$>$}{9}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}NFR 3: $<$Chatten$>$}{10}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}NFR 4: $<$Boot anlegen$>$}{10}{subsection.3.4}% 
 \contentsline {section}{\numberline {4}Quantity Structure}{11}{section.4}% 
 \contentsline {section}{\numberline {5}System Architecture and Interfaces}{12}{section.5}% 
 \contentsline {section}{\numberline {6}Acceptance Criteria}{13}{section.6}% 
