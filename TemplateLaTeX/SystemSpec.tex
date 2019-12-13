@@ -175,7 +175,7 @@ Der Kunde kann anhand von Suchkriterien ein Boot aus der Datenbank suchen.
 		\item User gibt in einer Suchleiste den Namen des Bootes ein.
 		\item User kann durch ankreuzen weitere Suchkriterien auswählen.
 		\item Im Hintergrund wird eine Abfrage an die Datenbank geschickt.
-		\item Der USer bekommt die Boote die zu seinen Suchkriterien passen.
+		\item Der User bekommt die Boote die zu seinen Suchkriterien passen.
 	\end{itemize}
 \end{explanation}
 
@@ -214,16 +214,55 @@ Es könnte sein das es keine Boote zu diesen Suchkriterien in der Datenbank gibt
 \end{explanation}
 \pagebreak
 
-\section{Non-Functional Requirements}
+\subsection{Use Case 2: $<$Bewertung schreiben$>$}
 \begin{explanation}
-Non-functional requirements describe all aspects of a system that cannot be mapped to a specific feature. Nevertheless these requirements are essential for the system itself. Non-functional requirements are, e.g., quality requirements, security requirements, or performance requirements.
-
-Non-functional requirements define basic features of a system which also have an impact on the architecture. They also influence the development costs and, therefore should be formulated in a measurable way.
-WRONG: The system shall be fast responding.
-CORRECT: The response time shall be within 500 ms.
-
-The following section has to be copied for each non-functional requirement.
+Der Kunde kann zu jedem Boot einen Kommentar (eine kleine Berwertung abgeben).
 \end{explanation}
+\subsubsection{General Description}
+\begin{explanation}
+	\begin{itemize}
+		\item Der User tippt auf einen Beitrag.
+		\item Dort erscheind dann eine Kommentar bzw. Bewertungsfunktion.
+		\item Dort kann er mit einer One-Click-Bewertung Sterne vergeben und per Hand einen kurzen Text schreiben.
+	\end{itemize}
+\end{explanation}
+
+\begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
+\hline 
+ID: & 1 \\ \hline
+Goal: & Der User sollte schnell, einfach und übersichtlich Kommentare und Bewertungen abgeben können \\ \hline
+Precondition: & Ist einer der Haupt-UserCases. Dieser wird benötigt um die Boote beweten zu können (Ohne diese Funktion, würde die Website keinen Sinn machen). \\ \hline
+Postcondition: & Die Bedienung, dass der User eine Bewertung schreiben kann ist dann als fertig gekennzeichnet. \\ \hline
+Involved Users: &Kunde: Der User kann positive und negative Aspekte zu einem Boot abgeben. \\ \hline
+\end{tabular}
+
+\subsubsection{UI to call the use case}
+\begin{explanation}
+Give a sketch of the UI and describe the UX controls.
+\end{explanation}
+
+\subsubsection{The Standard Use}
+\begin{explanation}
+Wenn alles funktionier hat, kann der User Kommentare und Bewertungen aufgeben, diese können dann auch von den anderen Usern eingesehen werden.
+\begin{itemize}
+	\item UI
+	\item Description
+	\item Activity, Sequence, or State Diagram to visualize the workflow
+\end{itemize}
+\end{explanation}
+
+\subsubsection{The Non-Standard Use}
+\begin{explanation}
+Es könnte sein, dass die Bewertungen nicht wahrheitsgemäß abgegeben worden sind.
+\begin{itemize}
+	\item UI
+	\item Description
+	\item Activity, Sequence, or State Diagram to visualize the workflow
+\end{itemize}
+\end{explanation}
+\pagebreak
+
+\section{Non-Functional Requirements}
 
 \subsection{NFR 1: $<$Suche$>$}
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
