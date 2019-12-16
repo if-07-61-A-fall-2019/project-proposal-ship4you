@@ -190,17 +190,18 @@ Involved Users: &Kunde: Der User sucht nach Suchkriterien ein auf ihn abgestimmt
 
 \subsubsection{UI to call the use case}
 \begin{explanation}
-Give a sketch of the UI and describe the UX controls.
+\begin{center}\includegraphics[width=15cm,height=20cm,keepaspectratio]{Startseite2.png}\end{center}
 \end{explanation}
 
 \subsubsection{The Standard Use}
 \begin{explanation}
 Wenn alles funktionier hat, werden dem User, der die Suche durchgeführt hat die Boote angezeigt, die auf seine Suchkriterien abgestimmt sind.
 \begin{itemize}
-	\item UI
-	\item Description
+	\item UI: Suchfunktion
+	\item Description: Man kann nach dem Ort, dem Vermieter, dem Schiffstyp und den Schiffsnamen suchen. Wenn keine Daten gefunden werden bekommt der User eine Fehlermeldung.
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
+\includegraphics[height=0.40\textwidth]{Aktivitaetsdiagramm.PNG}
 \end{explanation}
 
 \subsubsection{The Non-Standard Use}
@@ -249,11 +250,61 @@ Wenn alles funktionier hat, kann der User Kommentare und Bewertungen aufgeben, d
 	\item Description
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
+\includegraphics[height=0.40\textwidth]{Bewertung_schreiben.PNG}
 \end{explanation}
 
 \subsubsection{The Non-Standard Use}
 \begin{explanation}
 Es könnte sein, dass die Bewertungen nicht wahrheitsgemäß abgegeben worden sind.
+\begin{itemize}
+	\item UI
+	\item Description
+	\item Activity, Sequence, or State Diagram to visualize the workflow
+\end{itemize}
+\end{explanation}
+\pagebreak
+
+\subsection{Use Case 3: $<$Chatten$>$}
+\begin{explanation}
+Der Kunde kann über einen anonymen Chat mit anderen Usern bzw. Vermietern in Kontakt treten.
+\end{explanation}
+\subsubsection{General Description}
+\begin{explanation}
+	\begin{itemize}
+		\item User klickt auf den Namen eines Users.
+		\item Ein Chat-Fenster öffnet sich.
+		\item Nun kann er sich mit dem anderen User austauschen.
+	\end{itemize}
+\end{explanation}
+
+\begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
+\hline 
+ID: & 1 \\ \hline
+Goal: & Dem User sollte es möglich sein, über einen Chat mit einem anderen in Kontakt zu treten? Bei Fragen? \\ \hline
+Precondition: & Wird benötigt, um den Chat zu visualisieren \\ \hline
+Postcondition: & Wenn das Chat Fenster sich öffnet und das versenden bzw. empfangen der Nachricht funktioniert, gilt der Use-Case als abgeschlossen \\ \hline
+Involved Users: &Kunde: Die User können mit anderen Usern in Kontakt treten \\ \hline
+\end{tabular}
+
+\subsubsection{UI to call the use case}
+\begin{explanation}
+Give a sketch of the UI and describe the UX controls.
+\end{explanation}
+
+\subsubsection{The Standard Use}
+\begin{explanation}
+Wenn alles funktioniert hat, können sich die User bei Fragen untereinander im Chat austauschen.
+\begin{itemize}
+	\item UI
+	\item Description
+	\item Activity, Sequence, or State Diagram to visualize the workflow
+\end{itemize}
+\includegraphics[height=0.40\textwidth]{Chatten.PNG}
+\end{explanation}
+
+\subsubsection{The Non-Standard Use}
+\begin{explanation}
+Es könnte sein, dass die Internetverbindung zu langsam für das senden der Nachricht ist. Somit, wird dem User dieses als Fehlermeldung mitgeteilt.
 \begin{itemize}
 	\item UI
 	\item Description
