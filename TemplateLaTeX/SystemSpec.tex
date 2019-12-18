@@ -18,7 +18,7 @@
 \newenvironment{explanation}{%
    \setlength{\parindent}{0pt}
    \itshape
-   \color{blue}
+   \color{black}
 }{}
 
 \newcommand{\projectname}{Ship4You}
@@ -65,7 +65,6 @@ November 03, 2019&P. Bauer&First version \\ \hline
 \pagebreak
 
 \section{Initial Situation and Goal}
-\begin{explanation}
 	Zu der Idee kamen wir über mehrere Personen, die uns mitteilten das sie so ein Programm schon öfters benötigt haben und uns fragten ob wir nicht so eines Programmieren könnten. Also haben wir uns im Internet darüber Informiert ob es so eine Bewertungs-Website wirklich noch nicht in so einer Form gibt.
 	Wir erkannten, dass es in diesem Bereich ein Deffizit gibt und dass solche Bewertungswebisten nur für AirBnB und der Gleichen zur Verfügung gestellt wurden.
 	
@@ -88,17 +87,13 @@ November 03, 2019&P. Bauer&First version \\ \hline
 	
 	Risiko:
 	Bewertungen können durch fehlerhafte Bilder bzw. Kommentare verfälscht werden. Aufgrund der Anmeldung versuchen wir den durch Bots verursachbaren Schaden möglichst klein zu halten	
-\end{explanation}
 
 \subsection{Initial Situation}
-\begin{explanation}
 	Der Einsatzbereich unserer Website liegt bei allen Menschen, die sich ein Boot mieten wollen, oder sich ein Boot gemietet haben und eine Bewertung dazu abgeben möchten.
 	Auch können die Vermieter diese Website gut gebrauchen, um ihre Boote anzupreisen.
 	Der Besitzer kann Aufgrund der Kommentare einsehen ob etwas, mit dem zur Vermietung bereitgestellten Boot nicht passt. Somit ist unsere Website vielseitig einsetzbar.	
-\end{explanation}
 
 \subsubsection{Application Domain}
-\begin{explanation}
 	Aktuell kann beim Anmieten einer Yacht oder eines Segelbootes auf das Angebot verschiedener Vermieter (Vercharterer) nur so zugegriffen werden, dass der Mieter die einzelnen Websiten der Ver-charterer besucht und sich das Angebot ansieht. Eine globale Suche von Booten in einer bestimmten Region ist derzeit nicht möglich. 
 
 	Weiters ist es noch nicht möglich, eine unabhängige Bewertung der Geschäfts\-trans\-aktion einer Vermietung (Zustand des Boots, Qualität der Betreuung, etc.) einzusehen. So ist man derzeit als Mieter noch von den Angaben des Vermieters abhängig und es ist schwierig bis unmöglich, sich ein eigenes und unabhängiges Bild zu machen. Dies gilt sowohl für die textuelle Beschreibung des Bootes als auch für die zur Verfügung gestellten Bilder.
@@ -106,19 +101,14 @@ November 03, 2019&P. Bauer&First version \\ \hline
 	Auf der anderen Seite ist es für die Vercharterer auch sehr schwierig ihr Angebot an Booten zu kommunizieren. Jeder einzelne Vermieter muss sein Angebot auf seiner eigenen Website bewerben. Dies impliziert einen signifikanten Aufwand, der vor allem von Kleinvermietern nicht geleistet werden kann. 
 	
 	Unser Programm sollte somit diesen fehlerhaften Marktanteil verschwinden lassen.
-	
-\end{explanation}
 
 \subsubsection{Glossary}
-\begin{explanation}
 	Der Vermieter (Vercharterer) kümmert sich um die Vermietung der Boote. Jedoch gehören diese Schiffe ihm nicht selber, sondern bekommt diese von den Besitzern zur Verfügung gestellt.
 
 	Der Besitzer selber stellt sein Boot dem Vermieter zur Verfügung, der sich um die Vermietung bzw. um das Bewerben der Boote kümmert. Dieser erhält vom Vermieter natürlich eine Provision dafür (Betrifft unsere Website jedoch nicht).
 	Der Mieter der sich gerne ein Boot mieten möchte, kann auf unserer Website zu jenem Boot die Bewertungen einsehen. Des Weiteren kann er nach bestimmten Booten suchen.
-\end{explanation}
 
 \subsubsection{Model of the Application Domain}
-\begin{explanation}
 	\includegraphics[height=0.50\textwidth]{SysUML.PNG}
 	Die verschiedenen Userklassen(Gruppen) sind der Besitzer des Bootes (angemeldet bzw. nicht angemeldet), der Vercharterer (angemeldet) und der Charterer bzw. Ex Charterer oder auch normaler Website Besucher (angemeldet und nicht angemeldet)
 	Der Besitzer des Bootes hat das Boot mit Namen, Schiffdaten, Hafen, Vercharterer und Preis. Dieser vermietet das Boot an den Vercharterer, der das Boot dann wiede-rum zum Vermieten freigibt.  Der Besitzer kann sein Schiff und die Bewertungen da-zu natürlich einsehen, um etwas zu kommentieren, muss er jedoch wie ein normaler Benutzer angemeldet sein.
@@ -127,10 +117,7 @@ November 03, 2019&P. Bauer&First version \\ \hline
 
 	Der Charterer(ohne Anmeldung) kann ein Boot nach den Suchkriterien (Name, Ort, Vermieter) suchen. Über einen anonymen Chat (siehe Willhaben.at) kann er mit dem Vercharterer bzw. dem Besitzer des Bootes in Kontakt treten. Er kann auch Bewer-tungen einsehen. Wenn der Charterer angemeldet ist, hat er die Möglichkeit, Kom-mentare zu schreiben und Bewertungen zu den Booten abzugeben. 
 
-\end{explanation}
-
 \subsection{Goal}
-\begin{explanation}
 	Benutzer können sich anmelden, sind aber nicht dazu verpflichtet. Durch eine Anmeldung
 	bekommen sie mehrere Features wie:
 	\begin{itemize}
@@ -148,13 +135,11 @@ November 03, 2019&P. Bauer&First version \\ \hline
 	Gesucht werden kann nach Ort, Vermieter, Schiffstyp und Schiffsname. Weiters ist es möglich Boote nach Preis, Größe, Bewertung und Namen zu filtern.
 	Für Fragen steht ein anonymer Chat zur Verfügung, wo sich Vermieter und Mieter austauschen können beziehungsweise bei Problemen um einen Support Anfragen können. Wenn es weitere Infos gibt können diese über Emails an das Team geschickt werden.
 	Das Ziel dieses Projekts ist es, möglichst viele Boote zur Verfügung zu stellen, damit sich Menschen, die gerne ein Boot mieten möchten, sich ein klares Bild daraus machen können. Mithilfe der Zusammenarbeit ehrlicher Vermieter können klar strukturierte Aussagen gemacht werden, wie zum Beispiel ob ein Boot beschädigt ist, für eine bestimmte Anzahl an Personen geeignet ist oder das Boot dem angegeben Preis entspricht. Mit der Möglichkeit selbst Boote hochzuladen und eine Beschreibung und Bewertung abzugeben soll anderen Personen helfen, sich für das richtige Boot zu entscheiden. Es besteht weiterhin das Risiko, dass falsche Details zu Booten abgegeben werden. Zur schnellen Übersicht werden die Boote mit der besten Bewertung angezeigt.
-\end{explanation}
 \pagebreak
 
 \section{Functional Requirements}
 
 \subsection{Overview}
-\begin{explanation}
 	\includegraphics[height=0.50\textwidth]{UseCaseDiagram.PNG}
 	\begin{itemize}
 		\item UseCase: Der Kunde kann ein Boot suchen
@@ -163,21 +148,16 @@ November 03, 2019&P. Bauer&First version \\ \hline
 		\item UseCase: Der Verkäufer bzw. der Besitzer kann chatten
 		\item UseCase: Der Verkäufer bzw. der Besitzer kann ein Boot anlegen 
 	\end{itemize}
-\end{explanation}
 
-\subsection{Use Case 1: $<$Boot suchen$>$}
-\begin{explanation}
+\subsection{Use Case 1: Boot suchen}
 Der Kunde kann anhand von Suchkriterien ein Boot aus der Datenbank suchen.
-\end{explanation}
 \subsubsection{General Description}
-\begin{explanation}
 	\begin{itemize}
 		\item User gibt in einer Suchleiste den Namen des Bootes ein.
 		\item User kann durch ankreuzen weitere Suchkriterien auswählen.
 		\item Im Hintergrund wird eine Abfrage an die Datenbank geschickt.
 		\item Der User bekommt die Boote die zu seinen Suchkriterien passen.
 	\end{itemize}
-\end{explanation}
 
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
@@ -189,12 +169,9 @@ Involved Users: &Kunde: Der User sucht nach Suchkriterien ein auf ihn abgestimmt
 \end{tabular}
 
 \subsubsection{UI to call the use case}
-\begin{explanation}
 \begin{center}\includegraphics[width=15cm,height=20cm,keepaspectratio]{Startseite2.png}\end{center}
-\end{explanation}
 
 \subsubsection{The Standard Use}
-\begin{explanation}
 Wenn alles funktionier hat, werden dem User, der die Suche durchgeführt hat die Boote angezeigt, die auf seine Suchkriterien abgestimmt sind.
 \begin{itemize}
 	\item UI: Suchfunktion
@@ -202,31 +179,24 @@ Wenn alles funktionier hat, werden dem User, der die Suche durchgeführt hat die
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
 \includegraphics[height=0.40\textwidth]{Aktivitaetsdiagramm.PNG}
-\end{explanation}
 
 \subsubsection{The Non-Standard Use}
-\begin{explanation}
 Es könnte sein das es keine Boote zu diesen Suchkriterien in der Datenbank gibt. Dieses wird dem User mitgeteilt und er wird darum gebeten andere Suchkriterien zu verwenden.
 \begin{itemize}
 	\item UI
 	\item Description
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
-\end{explanation}
 \pagebreak
 
-\subsection{Use Case 2: $<$Bewertung schreiben$>$}
-\begin{explanation}
+\subsection{Use Case 2: Bewertung schreiben}
 Der Kunde kann zu jedem Boot einen Kommentar (eine kleine Berwertung abgeben).
-\end{explanation}
 \subsubsection{General Description}
-\begin{explanation}
 	\begin{itemize}
 		\item Der User tippt auf einen Beitrag.
 		\item Dort erscheind dann eine Kommentar bzw. Bewertungsfunktion.
 		\item Dort kann er mit einer One-Click-Bewertung Sterne vergeben und per Hand einen kurzen Text schreiben.
 	\end{itemize}
-\end{explanation}
 
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
@@ -238,44 +208,34 @@ Involved Users: &Kunde: Der User kann positive und negative Aspekte zu einem Boo
 \end{tabular}
 
 \subsubsection{UI to call the use case}
-\begin{explanation}
 Give a sketch of the UI and describe the UX controls.
-\end{explanation}
 
 \subsubsection{The Standard Use}
-\begin{explanation}
 Wenn alles funktionier hat, kann der User Kommentare und Bewertungen aufgeben, diese können dann auch von den anderen Usern eingesehen werden.
 \begin{itemize}
-	\item UI
-	\item Description
+	\item UI: Bewertung schreiben
+	\item Description: Kunde kann eine Bewertung zu einem Boot abgeben. Bei einem Fehler erhält dieser eine Fehlermeldung.
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
 \includegraphics[height=0.40\textwidth]{Bewertung_schreiben.PNG}
-\end{explanation}
 
 \subsubsection{The Non-Standard Use}
-\begin{explanation}
 Es könnte sein, dass die Bewertungen nicht wahrheitsgemäß abgegeben worden sind.
 \begin{itemize}
 	\item UI
 	\item Description
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
-\end{explanation}
 \pagebreak
 
-\subsection{Use Case 3: $<$Chatten$>$}
-\begin{explanation}
+\subsection{Use Case 3: Chatten}
 Der Kunde kann über einen anonymen Chat mit anderen Usern bzw. Vermietern in Kontakt treten.
-\end{explanation}
 \subsubsection{General Description}
-\begin{explanation}
 	\begin{itemize}
 		\item User klickt auf den Namen eines Users.
 		\item Ein Chat-Fenster öffnet sich.
 		\item Nun kann er sich mit dem anderen User austauschen.
 	\end{itemize}
-\end{explanation}
 
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
@@ -287,35 +247,71 @@ Involved Users: &Kunde: Die User können mit anderen Usern in Kontakt treten \\ 
 \end{tabular}
 
 \subsubsection{UI to call the use case}
-\begin{explanation}
 Give a sketch of the UI and describe the UX controls.
-\end{explanation}
 
 \subsubsection{The Standard Use}
-\begin{explanation}
 Wenn alles funktioniert hat, können sich die User bei Fragen untereinander im Chat austauschen.
 \begin{itemize}
-	\item UI
-	\item Description
+	\item UI: Chat-UI
+	\item Description: Der User kann per Mausklick mit einem anderen User in Kontakt treten. Es öffnet siche ein externes Fenster mit einem Chat. 
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
 \includegraphics[height=0.40\textwidth]{Chatten.PNG}
-\end{explanation}
 
 \subsubsection{The Non-Standard Use}
-\begin{explanation}
 Es könnte sein, dass die Internetverbindung zu langsam für das senden der Nachricht ist. Somit, wird dem User dieses als Fehlermeldung mitgeteilt.
 \begin{itemize}
 	\item UI
-	\item Description
+	\item Description: Erscheint, wenn ein Fehler auftritt.
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
-\end{explanation}
+\pagebreak
+
+
+\subsection{Use Case 4: Boote anlegen}
+Der Kunde kann neue Boote anlegen, zu diesem können dann die Bewertungen geschrieben werden.
+\subsubsection{General Description}
+	\begin{itemize}
+		\item User klickt auf einen Button mit neues Boot anlegen
+		\item Ein neues Fenster mit einer vorgegebenen Maske öffnet sich
+		\item Hier kann der Bilder und Daten des Bootes eintragen und eine Bewertung, wenn er möchte abgeben
+	\end{itemize}
+
+\begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
+\hline 
+ID: & 1 \\ \hline
+Goal: & Dem User sollte es möglich sein, ein neues Boot anzulegen \\ \hline
+Precondition: & Wird benötigt, um Boote später bewerten zu können \\ \hline
+Postcondition: & Der Use-Case gilt als abgeschlossen, sobald ein neues Boot in der Datenbank eingelesen wurde\\ \hline
+Involved Users: &Kunde: Kann ein neues Boot anlegen \\ \hline
+\end{tabular}
+
+\subsubsection{UI to call the use case}
+Give a sketch of the UI and describe the UX controls.
+
+\subsubsection{The Standard Use}
+Wenn alles funktioniert hat, erscheint das Boot nach der Suche.
+\begin{itemize}
+	\item UI: Boot anlegen
+	\item Description: Der User kann, wenn er auf den Button "Neues Boot anlegen" drückt ein Boot hinzufügen. Es öffnet sich ein neues Fenster mit einer schon vorgegebenen Demo-Maske. 
+	Nach dem Speicher wird das Boot und seine Daten in die Datenbank gespeichert. Bei einem Fehler, wird eine Fehlermeldung ausgegeben.
+	\item Activity, Sequence, or State Diagram to visualize the workflow
+\end{itemize}
+\includegraphics[height=0.40\textwidth]{Boot_anlegen.PNG}
+
+\subsubsection{The Non-Standard Use}
+Es könnte sein, das es nicht in die Datenbank gespeichert wird.
+\begin{itemize}
+	\item UI
+	\item Description: Fehlermeldung, wenn das Speichern des Bootes in die Datenbank nicht funktioniert.
+	\item Activity, Sequence, or State Diagram to visualize the workflow
+\end{itemize}
+\includegraphics[height=0.40\textwidth]{Boot_anlegen_Fehler.PNG}
 \pagebreak
 
 \section{Non-Functional Requirements}
 
-\subsection{NFR 1: $<$Suche$>$}
+\subsection{NFR 1: Suche}
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
 ID: & 1 \\ \hline
@@ -324,7 +320,7 @@ Type	: & EFFIC \\ \hline
 Descritpion: &  Die Suche sollte innerhalb von 1,5 Sekunde die Boote aus der Datenbank ausgelesen haben und diese auch dem User angezeigt haben.\\ \hline
 \end{tabular}
 
-\subsection{NFR 2: $<$Bewertung schreiben$>$}
+\subsection{NFR 2: Bewertung schreiben}
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
 ID: & 2 \\ \hline
@@ -333,7 +329,7 @@ Type	: & USE \\ \hline
 Descritpion: &  Das schreiben einer Bewertung sollte mit einem Klick möglich sein. (Eine Sterne Bewertung für einen Beitrag abgeben). Jedoch kann man auch ein neues Boot Bewerten (hierzu sind Bilder, und ein kleiner Artikel nötig. (ca. 100 Textzeichen))\\ \hline
 \end{tabular}
 
-\subsection{NFR 3: $<$Chatten$>$}
+\subsection{NFR 3: Chatten}
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
 ID: & 3 \\ \hline
@@ -342,42 +338,36 @@ Type	: & SEC und USE \\ \hline
 Descritpion: &  Das chatten sollte Anonym ablaufen. Der User muss keine Daten bekannt geben (keine Telefonnummer, kein Name). \\Die verwendung des Chattes sollte per On-Cklick funktionieren \\ \hline
 \end{tabular}
 
-\subsection{NFR 4: $<$Boot anlegen$>$}
+\subsection{NFR 4: Boot anlegen}
 \begin{tabular}{|p{.2\linewidth}|p{.65\linewidth}|}
 \hline 
 ID: & 4 \\ \hline
 Name: & Boot anlegen \\ \hline
 Type	: & USE \\ \hline
-Descritpion: &  Beim Anlegen eines Neuen Bootes sollte schon eine Vorgegebene Maske (Folie) zur verfügng stehen, wo mann nur noch die Daten des Schiffes und seine Bewertung bzw. einen kleinen Text (100 Textzeichen) hinzufügen muss.\\ \hline
+Descritpion: &  Beim Anlegen eines Neuen Bootes sollte schon eine Vorgegebene Maske (Folie) zur verfügung stehen, wo mann nur noch die Daten des Schiffes und seine Bewertung bzw. einen kleinen Text (100 Textzeichen) hinzufügen muss.\\ \hline
 \end{tabular}
 \pagebreak
 
 \section{Quantity Structure}
-\begin{explanation}
 Da die ganzen Beiträge (Die Boote mit (Name, Bewertungen, Kommentare, Texte, Bilder)) den größten Umfang der Website beanspruchen, werden wir hierfür eine Datenbank benutzen, wo wir jede Bootbwertung übersichtlich gliedern bzw. einteilen können.
-\end{explanation}
 
 \pagebreak
 \section{System Architecture and Interfaces}
-\begin{explanation}
 Unser System ist für die Kunden vorerst nur über eine Website verfügbar. Später wird vielleicht auch eine App zur besseren Nutzung auf den Mobiltelephonen zur verfügung stehen. Unsere Website greift auf eine Datenbank zu, wo die Boote gespeichert sind. Desweiteren werden wir einen Automattischen Email-Sender implementieren, um Passwörter leichter zuruksetzen zu können.
-\end{explanation}
 
 \pagebreak
 \section{Acceptance Criteria}
-\begin{explanation}
 Suche:
 \begin{itemize}
-	\item Die Suche muss schnell und zuverlässig funktionieren
+	\item Die Suche muss schnell (1,5s) und zuverlässig funktionieren
 \end{itemize}
 Boot anlegen:
 \begin{itemize}
-	Das Boot anlegen muss einfach und Übersichtlich funktionieren. Die vorgabe Folie sollte schön gestaltet sein.
+	\item Das Boot anlegen muss einfach und übersichtlich funktionieren. Die vorgabe Folie sollte schön gestaltet sein.
 \end{itemize}
 Chat
 \begin{itemize}
-	Der Chat sollte schnell und ohne verzögerung funktionieren.
+	\item Der Chat sollte schnell (1,5s) und ohne verzögerung funktionieren.
 \end{itemize}
-\end{explanation}
 
 \end{document}  
