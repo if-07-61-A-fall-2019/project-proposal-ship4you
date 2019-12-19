@@ -183,8 +183,8 @@ Wenn alles funktionier hat, werden dem User, der die Suche durchgeführt hat, di
 \subsubsection{The Non-Standard Use}
 Es könnte sein, dass es keine Boote zu diesen Suchkriterien in der Datenbank gibt. Dieses wird dem User über eine Fehlermeldung mitgeteilt und er wird darum gebeten andere Suchkriterien zu verwenden.
 \begin{itemize}
-	\item UI:
-	\item Description:
+	\item UI: Fehlerseite es sind keine Boote vorhanden!
+	\item Description: Es wird eine Fehlermeldung ausgegeben.
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
 \includegraphics[height=0.40\textwidth]{Fehler_Suchen.PNG}
@@ -223,12 +223,13 @@ Wenn alles funktioniert hat, kann der User Kommentare und Bewertungen aufgeben, 
 \includegraphics[height=0.40\textwidth]{Bewerten.PNG}
 
 \subsubsection{The Non-Standard Use}
-Es könnte sein, dass die Bewertungen nicht wahrheitsgemäß abgegeben worden sind.
+Es könnte sein, dass speichern der Bewertung in der Datenbank nicht funktioniert.
 \begin{itemize}
-	\item UI
-	\item Description
+	\item UI: Bewertung speichern Fehlerseite !
+	\item Description: Es wird eine Fehlermeldung ausgegeben.
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
+\includegraphics[height=0.40\textwidth]{Fehler2.PNG}
 \pagebreak
 
 \subsection{Use Case 3: Chatten}
@@ -306,11 +307,12 @@ Wenn alles funktioniert hat, erscheint das Boot nach der Suche.
 \subsubsection{The Non-Standard Use}
 Es könnte sein, dass das Boot nicht in die Datenbank gespeichert wird.
 \begin{itemize}
-	\item UI
+	\item UI: Fehlerseite - Boot anlegen!
 	\item Description: Fehlermeldung, wenn das Speichern des Bootes in die Datenbank nicht funktioniert.
 	\item Activity, Sequence, or State Diagram to visualize the workflow
 \end{itemize}
 \includegraphics[height=0.40\textwidth]{Boot_anlegen_Fehler.PNG}
+\includegraphics[height=0.40\textwidth]{Fehler2.PNG}
 \pagebreak
 
 \section{Non-Functional Requirements}
