@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  19 DEC 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  19 DEC 2019 23:21
 entering extended mode
 **d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex
 (d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex
@@ -390,96 +390,79 @@ File: Aktivitaetsdiagramm.PNG Graphic file (type png)
 <use Aktivitaetsdiagramm.PNG>
 Package pdftex.def Info: Aktivitaetsdiagramm.PNG  used on input line 178.
 (pdftex.def)             Requested size: 503.4302pt x 171.99922pt.
-<Startseite2.PNG, id=125, 983.17313pt x 78.2925pt>
-File: Startseite2.PNG Graphic file (type png)
-<use Startseite2.PNG>
-Package pdftex.def Info: Startseite2.PNG  used on input line 179.
-(pdftex.def)             Requested size: 2160.21223pt x 171.99922pt.
 
-Overfull \hbox (73.42558pt too wide) in paragraph at lines 178--180
-[]
- []
-
-
-Overfull \hbox (1730.20761pt too wide) in paragraph at lines 178--180
+Overfull \hbox (73.42558pt too wide) in paragraph at lines 178--179
 [] 
  []
 
+File: Startseite2.png Graphic file (type png)
+<use Startseite2.png>
+Package pdftex.def Info: Startseite2.png  used on input line 179.
+(pdftex.def)             Requested size: 426.79175pt x 33.98647pt.
 [9 <./Startseite2.png> <./Aktivitaetsdiagramm.PNG>]
-<Boote_Suchen_Fehler.PNG, id=131, 671.50874pt x 245.718pt>
+<Boote_Suchen_Fehler.PNG, id=130, 671.50874pt x 245.718pt>
 File: Boote_Suchen_Fehler.PNG Graphic file (type png)
 <use Boote_Suchen_Fehler.PNG>
 Package pdftex.def Info: Boote_Suchen_Fehler.PNG  used on input line 188.
 (pdftex.def)             Requested size: 470.07341pt x 171.99922pt.
-<Fehler_Suchen.PNG, id=132, 623.931pt x 130.086pt>
+
+Overfull \hbox (40.06879pt too wide) in paragraph at lines 188--189
+[] 
+ []
+
+<Fehler_Suchen.PNG, id=131, 623.931pt x 130.086pt>
 File: Fehler_Suchen.PNG Graphic file (type png)
 <use Fehler_Suchen.PNG>
 Package pdftex.def Info: Fehler_Suchen.PNG  used on input line 189.
-(pdftex.def)             Requested size: 825.00049pt x 171.99922pt.
-
-Overfull \hbox (40.06879pt too wide) in paragraph at lines 188--191
-[]
- []
-
-
-Overfull \hbox (394.99586pt too wide) in paragraph at lines 188--191
-[]
- []
-
-[10 <./Startseite2.PNG> <./Boote_Suchen_Fehler.PNG>] [11 <./Fehler_Suchen.PNG>]
-<Bewertung_schreiben.PNG, id=143, 660.066pt x 319.1925pt>
+(pdftex.def)             Requested size: 426.7999pt x 88.98529pt.
+[10 <./Boote_Suchen_Fehler.PNG> <./Fehler_Suchen.PNG>]
+<Bewertung_schreiben.PNG, id=138, 660.066pt x 319.1925pt>
 File: Bewertung_schreiben.PNG Graphic file (type png)
 <use Bewertung_schreiben.PNG>
 Package pdftex.def Info: Bewertung_schreiben.PNG  used on input line 219.
 (pdftex.def)             Requested size: 355.68501pt x 171.99922pt.
-<Bewertung_UI.PNG, id=144, 283.0575pt x 307.1475pt>
+ [11]
+<Bewertung_UI.PNG, id=143, 278.84175pt x 479.391pt>
 File: Bewertung_UI.PNG Graphic file (type png)
 <use Bewertung_UI.PNG>
 Package pdftex.def Info: Bewertung_UI.PNG  used on input line 220.
-(pdftex.def)             Requested size: 158.51111pt x 171.99922pt.
-<Bewertungen_UI2.PNG, id=145, 189.70876pt x 433.62pt>
+(pdftex.def)             Requested size: 248.25345pt x 426.80295pt.
+ [12 <./Bewertung_schreiben.PNG>]
+<Bewertungen_UI2.PNG, id=150, 189.70876pt x 433.62pt>
 File: Bewertungen_UI2.PNG Graphic file (type png)
 <use Bewertungen_UI2.PNG>
 Package pdftex.def Info: Bewertungen_UI2.PNG  used on input line 221.
-(pdftex.def)             Requested size: 75.2511pt x 171.99922pt.
-<Bewerten.PNG, id=146, 252.34274pt x 374.5995pt>
+(pdftex.def)             Requested size: 186.72961pt x 426.81056pt.
+ [13 <./Bewertung_UI.PNG>]
+<Bewerten.PNG, id=156, 252.34274pt x 374.5995pt>
 File: Bewerten.PNG Graphic file (type png)
 <use Bewerten.PNG>
 Package pdftex.def Info: Bewerten.PNG  used on input line 222.
-(pdftex.def)             Requested size: 115.86343pt x 171.99922pt.
-
-Overfull \hbox (86.80258pt too wide) in paragraph at lines 219--223
-[] []
- []
-
-[12]
-<Bewertung_schreiben_Fehler.PNG, id=152, 660.066pt x 304.13625pt>
+(pdftex.def)             Requested size: 284.5587pt x 422.42369pt.
+ [14 <./Bewertungen_UI2.PNG>]
+<Bewertung_schreiben_Fehler.PNG, id=162, 660.066pt x 304.13625pt>
 File: Bewertung_schreiben_Fehler.PNG Graphic file (type png)
 <use Bewertung_schreiben_Fehler.PNG>
 Package pdftex.def Info: Bewertung_schreiben_Fehler.PNG  used on input line 231.
 (pdftex.def)             Requested size: 373.30057pt x 171.99922pt.
-<Fehler2.PNG, id=153, 546.843pt x 82.50826pt>
+ [15 <./Bewerten.PNG>]
+<Fehler2.PNG, id=168, 546.843pt x 82.50826pt>
 File: Fehler2.PNG Graphic file (type png)
 <use Fehler2.PNG>
 Package pdftex.def Info: Fehler2.PNG  used on input line 232.
-(pdftex.def)             Requested size: 1140.07674pt x 171.99922pt.
-
-Overfull \hbox (1085.98376pt too wide) in paragraph at lines 231--234
-[] []
- []
-
-[13 <./Bewertung_schreiben.PNG> <./Bewertung_UI.PNG> <./Bewertungen_UI2.PNG> <./Bewerten.PNG>] [14 <./Bewertung_schreiben_Fehler.PNG> <./Fehler2.PNG>]
-<Chatten.PNG, id=168, 713.064pt x 284.86424pt>
+(pdftex.def)             Requested size: 426.81117pt x 64.3977pt.
+ [16 <./Bewertung_schreiben_Fehler.PNG> <./Fehler2.PNG>]
+<Chatten.PNG, id=175, 713.064pt x 284.86424pt>
 File: Chatten.PNG Graphic file (type png)
 <use Chatten.PNG>
 Package pdftex.def Info: Chatten.PNG  used on input line 262.
 (pdftex.def)             Requested size: 430.54005pt x 171.99922pt.
-<SupportChat.PNG, id=169, 229.45724pt x 365.56575pt>
+<SupportChat.PNG, id=176, 229.45724pt x 365.56575pt>
 File: SupportChat.PNG Graphic file (type png)
 <use SupportChat.PNG>
 Package pdftex.def Info: SupportChat.PNG  used on input line 263.
 (pdftex.def)             Requested size: 107.96045pt x 171.99922pt.
-<Chat.PNG, id=170, 592.01175pt x 427.5975pt>
+<Chat.PNG, id=177, 592.01175pt x 427.5975pt>
 File: Chat.PNG Graphic file (type png)
 <use Chat.PNG>
 Package pdftex.def Info: Chat.PNG  used on input line 264.
@@ -489,32 +472,28 @@ Overfull \hbox (0.53543pt too wide) in paragraph at lines 262--265
 []
  []
 
-[15]
-<Chatten_Fehler.PNG, id=175, 710.05275pt x 270.41025pt>
+[17]
+<Chatten_Fehler.PNG, id=182, 710.05275pt x 270.41025pt>
 File: Chatten_Fehler.PNG Graphic file (type png)
 <use Chatten_Fehler.PNG>
 Package pdftex.def Info: Chatten_Fehler.PNG  used on input line 273.
 (pdftex.def)             Requested size: 451.6369pt x 171.99922pt.
+
+Overfull \hbox (21.63228pt too wide) in paragraph at lines 273--274
+[] 
+ []
+
+[18 <./Chatten.PNG> <./SupportChat.PNG> <./Chat.PNG>]
 File: Fehler2.PNG Graphic file (type png)
 <use Fehler2.PNG>
 Package pdftex.def Info: Fehler2.PNG  used on input line 274.
-(pdftex.def)             Requested size: 1140.07674pt x 171.99922pt.
-
-Overfull \hbox (21.63228pt too wide) in paragraph at lines 273--276
-[]
- []
-
-
-Overfull \hbox (710.07211pt too wide) in paragraph at lines 273--276
-[]
- []
-
-[16 <./Chatten.PNG> <./SupportChat.PNG> <./Chat.PNG>] [17 <./Chatten_Fehler.PNG>]
+(pdftex.def)             Requested size: 426.81117pt x 64.3977pt.
+ [19 <./Chatten_Fehler.PNG>]
 Overfull \hbox (0.68643pt too wide) in paragraph at lines 302--304
 []\OT1/cmr/m/n/12 Description: Der User kann, wenn er auf den But-ton nn-eu-es Boot an-le-gen"dr[]uckt,
  []
 
-<Boot_anlegen.PNG, id=188, 475.7775pt x 157.18726pt>
+<Boot_anlegen.PNG, id=196, 475.7775pt x 157.18726pt>
 File: Boot_anlegen.PNG Graphic file (type png)
 <use Boot_anlegen.PNG>
 Package pdftex.def Info: Boot_anlegen.PNG  used on input line 306.
@@ -524,24 +503,20 @@ Overfull \hbox (90.6516pt too wide) in paragraph at lines 306--307
 [] 
  []
 
-[18]
-<Boot_anlegen_Fehler.PNG, id=194, 370.986pt x 293.898pt>
+[20]
+<Boot_anlegen_Fehler.PNG, id=201, 370.986pt x 293.898pt>
 File: Boot_anlegen_Fehler.PNG Graphic file (type png)
 <use Boot_anlegen_Fehler.PNG>
 Package pdftex.def Info: Boot_anlegen_Fehler.PNG  used on input line 315.
-(pdftex.def)             Requested size: 217.11366pt x 171.99922pt.
+(pdftex.def)             Requested size: 426.80605pt x 338.11906pt.
+ [21 <./Boot_anlegen.PNG>]
 File: Fehler2.PNG Graphic file (type png)
 <use Fehler2.PNG>
 Package pdftex.def Info: Fehler2.PNG  used on input line 316.
-(pdftex.def)             Requested size: 1140.07674pt x 171.99922pt.
-
-Overfull \hbox (929.79686pt too wide) in paragraph at lines 315--318
-[] []
- []
-
-[19 <./Boot_anlegen.PNG> <./Boot_anlegen_Fehler.PNG>] [20] [21] [22] [23] (SystemSpec.bbl)
+(pdftex.def)             Requested size: 426.81117pt x 64.3977pt.
+ [22 <./Boot_anlegen_Fehler.PNG>] [23] [24] [25] [26] (SystemSpec.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
- [24]
+ [27]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
  (SystemSpec.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
@@ -549,17 +524,17 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 382.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
  ) 
 Here is how much of TeX's memory you used:
- 7661 strings out of 492895
- 114199 string characters out of 3123735
+ 7660 strings out of 492895
+ 114137 string characters out of 3123735
  225158 words of memory out of 3000000
- 11377 multiletter control sequences out of 15000+200000
+ 11373 multiletter control sequences out of 15000+200000
  10401 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,10n,35p,861b,431s stack positions out of 5000i,500n,10000p,200000b,50000s
 <D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on SystemSpec.pdf (25 pages, 1155914 bytes).
+Output written on SystemSpec.pdf (28 pages, 1372585 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 384 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 375 PDF objects out of 1000 (max. 8388607)
+ 68 named destinations out of 1000 (max. 500000)
+ 379 words of extra memory for PDF output out of 10000 (max. 10000000)
 
