@@ -1,11 +1,13 @@
 \documentclass[12pt]{article}
+\usepackage{bookmark}
+\usepackage{graphicx} 
+\usepackage[german]{babel}
 \usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
 \geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{epstopdf}
-\usepackage[english, german]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage[table]{xcolor}
@@ -18,22 +20,19 @@
 \newenvironment{explanation}{%
    \setlength{\parindent}{0pt}
    \itshape
-   \color{black}
+   \color{blue}
 }{}
 
 \newcommand{\projectname}{Ship4You}
 \newcommand{\productname}{Ship4You}
-\newcommand{\projectleader}{Hrazdera, Schöffl}
-\newcommand{\documentstatus}{In process}
-%\newcommand{\documentstatus}{Submitted}
+\newcommand{\projectleader}{Alexander Hrazdera/Paul Schöffl}
+%\newcommand{\documentstatus}{In Arbeit}
+\newcommand{\documentstatus}{Submitted}
 %\newcommand{\documentstatus}{Released}
 \newcommand{\version}{V. 1.0}
 
 \begin{document}
 \begin{titlepage}
-\begin{flushright}
-\includegraphics[scale=.5]{htlleondinglogo.png}\\
-\end{flushright}
 
 \vspace{10em}
 
@@ -42,13 +41,13 @@
 {\LARGE \productname} \\[3em]
 \end{center}
 
-\begin{flushleft}
+\begin{flushleft} 
 \begin{tabular}{|l|l|}
 \hline
-Ship4You & \projectname \\ \hline
-Hrazdera, Schöffl & \projectleader \\ \hline
-In Arbeit & \documentstatus \\ \hline
-Version 1.0 & \version \\ \hline
+Projekt Name & \projectname \\ \hline
+Projekt Leiter & \projectleader \\ \hline
+Dokumenten Status & \documentstatus \\ \hline
+Version & \version \\ \hline
 \end{tabular}
 \end{flushleft}
 
@@ -57,10 +56,9 @@ Version 1.0 & \version \\ \hline
 \begin{tabular}{|l|l|l|}
 \hline
 \cellcolor[gray]{0.5}\textcolor{white}{Date} & \cellcolor[gray]{0.5}\textcolor{white}{Author} & \cellcolor[gray]{0.5}\textcolor{white}{Change} \\ \hline
-November 03, 2019&P. Bauer&First version \\ \hline
+November 03, 2019&A. Hrazdera/P. Schöffl&First version \\ \hline
 \end{tabular}
 \pagebreak
-
 \tableofcontents
 \pagebreak
 
@@ -378,4 +376,7 @@ Chat
 \begin{itemize}
 	\item Der Chat sollte schnell (1,5s) und ohne verzögerung funktionieren.
 \end{itemize}
+\cite{endLine}
+\bibliography{my_bib}{}
+\bibliographystyle{plain}
 \end{document}  
