@@ -26,12 +26,12 @@
 \contentsline {subsubsection}{\numberline {2.5.1}General Description}{20}{subsubsection.2.5.1}% 
 \contentsline {subsubsection}{\numberline {2.5.2}UI to call the use case}{20}{subsubsection.2.5.2}% 
 \contentsline {subsubsection}{\numberline {2.5.3}The Standard Use}{20}{subsubsection.2.5.3}% 
-\contentsline {subsubsection}{\numberline {2.5.4}The Non-Standard Use}{21}{subsubsection.2.5.4}% 
-\contentsline {section}{\numberline {3}Non-Functional Requirements}{23}{section.3}% 
-\contentsline {subsection}{\numberline {3.1}NFR 1: Suche}{23}{subsection.3.1}% 
-\contentsline {subsection}{\numberline {3.2}NFR 2: Bewertung schreiben}{23}{subsection.3.2}% 
-\contentsline {subsection}{\numberline {3.3}NFR 3: Chatten}{23}{subsection.3.3}% 
-\contentsline {subsection}{\numberline {3.4}NFR 4: Boot anlegen}{24}{subsection.3.4}% 
-\contentsline {section}{\numberline {4}Quantity Structure}{25}{section.4}% 
-\contentsline {section}{\numberline {5}System Architecture and Interfaces}{26}{section.5}% 
-\contentsline {section}{\numberline {6}Acceptance Criteria}{27}{section.6}% 
+\contentsline {subsubsection}{\numberline {2.5.4}The Non-Standard Use}{22}{subsubsection.2.5.4}% 
+\contentsline {section}{\numberline {3}Non-Functional Requirements}{24}{section.3}% 
+\contentsline {subsection}{\numberline {3.1}NFR 1: Suche}{24}{subsection.3.1}% 
+\contentsline {subsection}{\numberline {3.2}NFR 2: Bewertung schreiben}{24}{subsection.3.2}% 
+\contentsline {subsection}{\numberline {3.3}NFR 3: Chatten}{24}{subsection.3.3}% 
+\contentsline {subsection}{\numberline {3.4}NFR 4: Boot anlegen}{25}{subsection.3.4}% 
+\contentsline {section}{\numberline {4}Quantity Structure}{26}{section.4}% 
+\contentsline {section}{\numberline {5}System Architecture and Interfaces}{27}{section.5}% 
+\contentsline {section}{\numberline {6}Acceptance Criteria}{28}{section.6}% 
