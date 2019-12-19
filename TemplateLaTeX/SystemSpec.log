@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  18 DEC 2019 23:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.19)  19 DEC 2019 17:45
 entering extended mode
 **d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex
 (d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex
@@ -396,132 +396,125 @@ Package pdftex.def Info: UseCaseDiagram.PNG  used on input line 143.
 <Startseite2.png, id=59, 983.17313pt x 78.2925pt>
 File: Startseite2.png Graphic file (type png)
 <use Startseite2.png>
-Package pdftex.def Info: Startseite2.png  used on input line 172.
+Package pdftex.def Info: Startseite2.png  used on input line 171.
 (pdftex.def)             Requested size: 426.79175pt x 33.98647pt.
 <Aktivitaetsdiagramm.PNG, id=60, 747.39224pt x 255.354pt>
 File: Aktivitaetsdiagramm.PNG Graphic file (type png)
 <use Aktivitaetsdiagramm.PNG>
-Package pdftex.def Info: Aktivitaetsdiagramm.PNG  used on input line 181.
+Package pdftex.def Info: Aktivitaetsdiagramm.PNG  used on input line 180.
 (pdftex.def)             Requested size: 503.4302pt x 171.99922pt.
 <Startseite2.PNG, id=61, 983.17313pt x 78.2925pt>
 File: Startseite2.PNG Graphic file (type png)
 <use Startseite2.PNG>
-Package pdftex.def Info: Startseite2.PNG  used on input line 182.
+Package pdftex.def Info: Startseite2.PNG  used on input line 181.
 (pdftex.def)             Requested size: 2160.21223pt x 171.99922pt.
 
-Overfull \hbox (73.42558pt too wide) in paragraph at lines 181--183
+Overfull \hbox (73.42558pt too wide) in paragraph at lines 180--182
 []
  []
 
 
-Overfull \hbox (1730.20761pt too wide) in paragraph at lines 181--183
+Overfull \hbox (1730.20761pt too wide) in paragraph at lines 180--182
 [] 
  []
 
-[8 <./Startseite2.png>]
-<Fehler_Suchen.PNG, id=68, 623.931pt x 130.086pt>
+[8 <./Startseite2.png> <./Aktivitaetsdiagramm.PNG>]
+<Fehler_Suchen.PNG, id=69, 623.931pt x 130.086pt>
 File: Fehler_Suchen.PNG Graphic file (type png)
 <use Fehler_Suchen.PNG>
-Package pdftex.def Info: Fehler_Suchen.PNG  used on input line 191.
+Package pdftex.def Info: Fehler_Suchen.PNG  used on input line 190.
 (pdftex.def)             Requested size: 825.00049pt x 171.99922pt.
 
-Overfull \hbox (394.99586pt too wide) in paragraph at lines 191--193
+Overfull \hbox (394.99586pt too wide) in paragraph at lines 190--192
 []
  []
 
-[9 <./Aktivitaetsdiagramm.PNG> <./Startseite2.PNG>] [10 <./Fehler_Suchen.PNG>]
-<Bewertung_schreiben.PNG, id=80, 660.066pt x 319.1925pt>
+[9 <./Startseite2.PNG> <./Fehler_Suchen.PNG>]
+<Bewertung_schreiben.PNG, id=76, 660.066pt x 319.1925pt>
 File: Bewertung_schreiben.PNG Graphic file (type png)
 <use Bewertung_schreiben.PNG>
-Package pdftex.def Info: Bewertung_schreiben.PNG  used on input line 222.
+Package pdftex.def Info: Bewertung_schreiben.PNG  used on input line 220.
 (pdftex.def)             Requested size: 355.68501pt x 171.99922pt.
-<Bewertung_UI.PNG, id=81, 283.0575pt x 307.1475pt>
+<Bewertung_UI.PNG, id=77, 283.0575pt x 307.1475pt>
 File: Bewertung_UI.PNG Graphic file (type png)
 <use Bewertung_UI.PNG>
-Package pdftex.def Info: Bewertung_UI.PNG  used on input line 223.
+Package pdftex.def Info: Bewertung_UI.PNG  used on input line 221.
 (pdftex.def)             Requested size: 158.51111pt x 171.99922pt.
-
-
-LaTeX Warning: File `Bewertung_UI2.PNG' not found on input line 224.
-
-
-d:/OneDrive/Dokumente/SYP/SystemSpecs/SystemSpecs/TemplateLaTeX/SystemSpec.tex:224: Package pdftex.def Error: File `Bewertung_UI2.PNG' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.224 ...height=0.40\textwidth]{Bewertung_UI2.PNG}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-<Bewerten.PNG, id=82, 252.34274pt x 374.5995pt>
+<Bewertungen_UI2.PNG, id=78, 189.70876pt x 433.62pt>
+File: Bewertungen_UI2.PNG Graphic file (type png)
+<use Bewertungen_UI2.PNG>
+Package pdftex.def Info: Bewertungen_UI2.PNG  used on input line 222.
+(pdftex.def)             Requested size: 75.2511pt x 171.99922pt.
+<Bewerten.PNG, id=79, 252.34274pt x 374.5995pt>
 File: Bewerten.PNG Graphic file (type png)
 <use Bewerten.PNG>
-Package pdftex.def Info: Bewerten.PNG  used on input line 225.
+Package pdftex.def Info: Bewerten.PNG  used on input line 223.
 (pdftex.def)             Requested size: 115.86343pt x 171.99922pt.
 
-Overfull \hbox (86.80258pt too wide) in paragraph at lines 222--226
+Overfull \hbox (86.80258pt too wide) in paragraph at lines 220--224
 [] []
  []
 
-[11] [12 <./Bewertung_schreiben.PNG> <./Bewertung_UI.PNG> <./Bewerten.PNG>]
-<Chatten.PNG, id=101, 713.064pt x 284.86424pt>
+[10] [11 <./Bewertung_schreiben.PNG> <./Bewertung_UI.PNG> <./Bewertungen_UI2.PNG> <./Bewerten.PNG>]
+<Chatten.PNG, id=97, 713.064pt x 284.86424pt>
 File: Chatten.PNG Graphic file (type png)
 <use Chatten.PNG>
-Package pdftex.def Info: Chatten.PNG  used on input line 264.
+Package pdftex.def Info: Chatten.PNG  used on input line 261.
 (pdftex.def)             Requested size: 430.54005pt x 171.99922pt.
-<SupportChat.PNG, id=102, 229.45724pt x 365.56575pt>
+<SupportChat.PNG, id=98, 229.45724pt x 365.56575pt>
 File: SupportChat.PNG Graphic file (type png)
 <use SupportChat.PNG>
-Package pdftex.def Info: SupportChat.PNG  used on input line 265.
+Package pdftex.def Info: SupportChat.PNG  used on input line 262.
 (pdftex.def)             Requested size: 107.96045pt x 171.99922pt.
-<Chat.PNG, id=103, 592.01175pt x 427.5975pt>
+<Chat.PNG, id=99, 592.01175pt x 427.5975pt>
 File: Chat.PNG Graphic file (type png)
 <use Chat.PNG>
-Package pdftex.def Info: Chat.PNG  used on input line 266.
+Package pdftex.def Info: Chat.PNG  used on input line 263.
 (pdftex.def)             Requested size: 238.1284pt x 171.99922pt.
 
-Overfull \hbox (0.53543pt too wide) in paragraph at lines 264--267
+Overfull \hbox (0.53543pt too wide) in paragraph at lines 261--264
 []
  []
 
-[13]
-<Fehler2.PNG, id=112, 546.843pt x 82.50826pt>
+[12]
+<Fehler2.PNG, id=109, 546.843pt x 82.50826pt>
 File: Fehler2.PNG Graphic file (type png)
 <use Fehler2.PNG>
-Package pdftex.def Info: Fehler2.PNG  used on input line 275.
+Package pdftex.def Info: Fehler2.PNG  used on input line 272.
 (pdftex.def)             Requested size: 1140.07674pt x 171.99922pt.
 
-Overfull \hbox (710.07211pt too wide) in paragraph at lines 275--277
+Overfull \hbox (710.07211pt too wide) in paragraph at lines 272--274
 []
  []
 
-[14 <./Chatten.PNG> <./SupportChat.PNG> <./Chat.PNG>] [15 <./Fehler2.PNG>]
-<Boot_anlegen.PNG, id=126, 475.7775pt x 157.18726pt>
+[13 <./Chatten.PNG> <./SupportChat.PNG> <./Chat.PNG>] [14 <./Fehler2.PNG>]
+Overfull \hbox (0.68643pt too wide) in paragraph at lines 300--302
+[]\OT1/cmr/m/n/12 Description: Der User kann, wenn er auf den But-ton nn-eu-es Boot an-le-gen"dr[]uckt,
+ []
+
+<Boot_anlegen.PNG, id=123, 475.7775pt x 157.18726pt>
 File: Boot_anlegen.PNG Graphic file (type png)
 <use Boot_anlegen.PNG>
-Package pdftex.def Info: Boot_anlegen.PNG  used on input line 308.
+Package pdftex.def Info: Boot_anlegen.PNG  used on input line 304.
 (pdftex.def)             Requested size: 520.65622pt x 171.99922pt.
 
-Overfull \hbox (90.6516pt too wide) in paragraph at lines 308--309
+Overfull \hbox (90.6516pt too wide) in paragraph at lines 304--305
 [] 
  []
 
-[16]
-<Boot_anlegen_Fehler.PNG, id=135, 370.986pt x 293.898pt>
+[15]
+<Boot_anlegen_Fehler.PNG, id=132, 370.986pt x 293.898pt>
 File: Boot_anlegen_Fehler.PNG Graphic file (type png)
 <use Boot_anlegen_Fehler.PNG>
-Package pdftex.def Info: Boot_anlegen_Fehler.PNG  used on input line 317.
+Package pdftex.def Info: Boot_anlegen_Fehler.PNG  used on input line 313.
 (pdftex.def)             Requested size: 217.11366pt x 171.99922pt.
- [17 <./Boot_anlegen.PNG> <./Boot_anlegen_Fehler.PNG>] [18] [19] [20] [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
- [22]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+ [16 <./Boot_anlegen.PNG> <./Boot_anlegen_Fehler.PNG>] [17] [18] [19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 376.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 376.
  (SystemSpec.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 376.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 376.
 
 
 Package rerunfilecheck Warning: File `SystemSpec.out' has changed.
@@ -531,20 +524,20 @@ Package rerunfilecheck Warning: File `SystemSpec.out' has changed.
 Package rerunfilecheck Info: Checksums for `SystemSpec.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  4BB769481812AA9642B8D9148821EC35;2647.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 376.
  ) 
 Here is how much of TeX's memory you used:
- 7379 strings out of 492895
- 110164 string characters out of 3123735
- 220408 words of memory out of 3000000
- 11101 multiletter control sequences out of 15000+200000
- 10570 words of font info for 40 fonts, out of 3000000 for 9000
+ 7381 strings out of 492895
+ 110251 string characters out of 3123735
+ 219408 words of memory out of 3000000
+ 11105 multiletter control sequences out of 15000+200000
+ 10401 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,10n,35p,844b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
-<D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SystemSpec.pdf (23 pages, 1023276 bytes).
+ 42i,10n,35p,861b,397s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Users/alexa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on SystemSpec.pdf (22 pages, 1032026 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 197 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
